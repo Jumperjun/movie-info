@@ -6,6 +6,8 @@ Movie Info is a movie search application built with React that allows users to e
 
 ## Live Demo
 
+https://movie-info-pi.vercel.app/
+
 ## Features
 
 - Display a list of popular movies
