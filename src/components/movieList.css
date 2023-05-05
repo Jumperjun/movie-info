@@ -1,0 +1,21 @@
+.movieList {
+  padding-bottom: 4rem;
+}
+
+.renderGenreName {
+  position: absolute;
+  top: 4.5rem;
+  left: 2rem;
+  font-family: "Oswald";
+  color: rgb(48, 47, 47);
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .renderGenreName {
+    position: absolute;
+    font-size: 1.8rem;
+    top: 3rem;
+    width: 300px;
+  }
+}

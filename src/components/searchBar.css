@@ -1,0 +1,42 @@
+.searchIcon {
+  padding: 8px;
+  font-size: 0.9rem;
+  background: #ffffff;
+  color: rgb(21, 20, 20);
+  border-radius: 50px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.inputWrapper {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+#movieInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  font-family: "Oswald";
+  border-radius: 50px;
+  padding: 0.3rem 6rem 0.3rem 0.6rem;
+}
+
+@media screen and (min-width: 1280px) {
+  .searchIcon {
+    background: rgb(16, 16, 16);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right: 4rem;
+    top: 2rem;
+  }
+  
+  #movieInput {
+    border: 1px solid grey;
+    position: fixed;
+    right: 4rem;
+    top: 2rem;
+  }
+}

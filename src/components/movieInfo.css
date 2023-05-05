@@ -1,0 +1,274 @@
+.infoWrapper {
+  padding-top: 7rem;
+  margin: 0 1.3rem 0 1.3rem;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.infoImg {
+  width: 55%;
+  border-radius: 8px;
+}
+
+.movieName {
+  font-family: "Ysabeau";
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem 0rem;
+  color: rgb(63, 63, 63);
+}
+
+.rateAndRelease {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rateStar .ant-rate-star {
+  font-size: 1rem;
+}
+
+.release {
+  font-family: "Rajdhani";
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 0.7rem;
+  color: #8fa1a1;
+}
+
+.genresTitle {
+  margin-top: 2rem;
+  font-family: "Teko";
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.genres {
+  margin-top: 0.6rem;
+  font-family: "Teko";
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #5d8989;
+}
+
+.genreItem {
+  margin-right: 1rem;
+}
+
+.genreIcon {
+  font-size: 1rem;
+}
+
+.overviewTitle {
+  margin-top: 1.4rem;
+  font-family: "Teko";
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.overview {
+  margin-top: 0.6rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.9rem;
+  word-spacing: 0.1rem;
+  line-height: 1.4rem;
+}
+
+.infoLink {
+  margin-top: 1.4rem;
+}
+
+.linkWebsite {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 0.6rem;
+  background-color: #ffffff;
+  color: rgb(88, 85, 85);
+  border: 1px solid rgb(101, 98, 98);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.6rem;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 600;
+  transition: background-color 0.4s ease-in;
+}
+
+.linkWebsite:hover {
+  background-color: #246f9d;
+  color: rgb(253, 253, 253);
+  border: none;
+}
+
+.infoLInkIcon {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+}
+
+.videoBox {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin-bottom: 1rem;
+}
+
+.videoBox iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  padding: 10px 20px;
+  background-color: #3d443e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.4s ease-in;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin: 1.1rem 0 4rem 1.4rem;
+}
+
+.backIcon {
+  margin-right: 10px;
+}
+
+.back:hover {
+  background-color: #51b48b;
+}
+
+@media screen and (min-width: 768px) {
+  .infoWrapper {
+    padding-top: 7rem;
+    margin: 0 2.5rem 3rem 2.5rem;
+  }
+  .infoImg {
+    width: 50%;
+    border-radius: 8px;
+  }
+  .movieName {
+    font-size: 2rem;
+    margin: 3.5rem 0 1rem 0rem;
+  }
+  .rateStar .ant-rate-star {
+    font-size: 1.3em;
+  }
+
+  .release {
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+    margin-left: 1.5rem;
+  }
+
+  .genresTitle {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .genres {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+  .genreIcon {
+    font-size: 1.4rem;
+  }
+
+  .overviewTitle {
+    margin-top: 1.4rem;
+    font-size: 1.6rem;
+  }
+
+  .overview {
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+
+  .infoLink {
+    margin-top: 1.8rem;
+  }
+
+  .linkWebsite {
+    padding: 10px 20px;
+    margin-right: 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  .infoLInkIcon {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .videoBox {
+    margin-bottom: 2rem;
+  }
+
+  .back {
+    margin-top: 12rem;
+    padding: 10px 60px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .infoWrapper {
+    padding-top: 7rem;
+    margin: 0 2.5rem 3rem 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imgWrapper {
+    flex: 2;
+    max-width: 40%;
+    display: flex;
+  }
+
+  .textWrapper {
+    flex: 3;
+    max-width: 60%;
+    margin-left: 1rem;
+  }
+  
+  .infoImg {
+    width: 90%;
+    height: 90%;
+    border-radius: 8px;
+  }
+
+  .movieName {
+    font-size: 2.2rem;
+    margin: 0 0 1rem 0rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .infoContainer {
+    margin-left: 300px;
+  }
+
+  .infoWrapper {
+    padding-top: 4rem;
+  }
+}

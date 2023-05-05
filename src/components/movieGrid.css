@@ -1,0 +1,81 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 7.5rem;
+}
+
+.cardLink {
+  text-decoration: none;
+}
+
+.pMovieCardMeta {
+  height: 40px;
+  line-height: 1.4rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Oswald";
+  letter-spacing: 0.2px;
+}
+
+.pMovieCard {
+  width: 70%;
+  margin: 1.2rem auto;
+}
+
+@media screen and (min-width: 375px) {
+  .pMovieCard {
+    width: 90%;
+    margin: 0.8rem auto;
+  }
+
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .pMovieCard {
+    width: 90%;
+    margin: 0.8rem auto;
+  }
+  
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pMovieCard {
+    width: 90%;
+    margin: 0.8rem auto;
+  }
+
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 1rem;
+  }
+}
+
+/*桌面*/
+@media screen and (min-width: 1280px) {
+  .cardWrapper {
+    top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 1rem;
+  }
+}

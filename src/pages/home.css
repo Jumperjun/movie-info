@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+@media (min-width: 1280px) {
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: white;
+  }
+  
+  .movieList {
+    margin-left: 300px;
+  }
+}
