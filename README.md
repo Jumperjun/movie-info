@@ -40,4 +40,4 @@ Start the application
 
 ## API Used
 
-The Movie Database (TMDb) API
+The Movie Database (TMDB) API
