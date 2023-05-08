@@ -32,6 +32,11 @@
     margin: 0.8rem auto;
   }
 
+  .ant-card .ant-card-body {
+    padding: 24px 10px;
+    overflow: hidden;
+  }
+
   .cardWrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -44,7 +49,12 @@
     width: 90%;
     margin: 0.8rem auto;
   }
-  
+
+  .ant-card .ant-card-body {
+    padding: 24px 15px;
+    overflow: hidden;
+  }
+
   .cardWrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
