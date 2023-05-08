@@ -12,7 +12,6 @@ export default function Paginator() {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 0, behavior: "smooth" });
-    console.log(currentPage)
   };
 
   return (
