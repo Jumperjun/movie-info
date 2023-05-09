@@ -2,7 +2,7 @@
 
 ![IMAGE](/public/images/demo.png)
 
-Movie Info is a movie search application built with React that allows users to easily find and browse movie information. This project leverages The Movie Database (TMDb) API to fetch movie data.
+Movie Info is a movie search application built with React that allows users to easily find and browse movie information. This project leverages The Movie Database (TMDB) API to fetch movie data.
 
 ## Live Demo
 
